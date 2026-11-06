@@ -1,0 +1,74 @@
+   <!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sentra Batik Tulis Tuban</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+  body{background:#fdf6ee}
+  /* BANNER PROMO */
+  .banner{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590732596287-2a6fcd1c8d85');
+    background-size:cover; background-position:center;
+    color:white; text-align:center; padding:80px 20px;
+  }
+  .banner h1{font-size:36px}
+  .banner p{margin:15px 0}
+  .btn{background:#8B4513;color:white;padding:12px 25px;text-decoration:none;border-radius:25px;display:inline-block}
+  /* GALERI */
+  .section{padding:40px 20px; max-width:1100px; margin:auto}
+  .section h2{text-align:center;margin-bottom:25px;color:#5a2d0c}
+  .galeri{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .kartu{background:white;border-radius:10px;overflow:hidden;box-shadow:0 3px 10px rgba(0,0,0,0.1);transition:0.3s}
+  .kartu:hover{transform:translateY(-5px)}
+  .kartu .img-box{overflow:hidden;height:180px}
+  .kartu img{width:100%;height:100%;object-fit:cover;transition: transform 0.5s ease}
+  .kartu:hover img{transform:scale(1.15)} /* INI TRANSISI ZOOM */
+  .kartu .info{padding:15px}
+  /* TABEL */
+  table{width:100%;border-collapse:collapse;background:white}
+  th,td{border:1px solid #d9c5b2;padding:12px;text-align:left}
+  th{background:#8B4513;color:white}
+  /* VIDEO */
+  .video-box{text-align:center}
+  .video-box iframe{width:100%;max-width:700px;height:380px;border-radius:10px;border:0}
+  /* FORM */
+  .form-box{background:white;padding:25px;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.1)}
+  .form-box input,.form-box select,.form-box textarea{width:100%;padding:10px;margin:8px 0 15px 0;border:1px solid #ccc;border-radius:5px}
+  .form-box button{width:100%;padding:12px;background:#8B4513;color:white;border:0;border-radius:5px;font-size:16px;cursor:pointer}
+  /* FOOTER */
+  footer{background:#3a1f0a;color:#f0d9c0;text-align:center;padding:30px 20px;margin-top:30px}
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <h1>Sentra UMKM Batik Tulis Tuban</h1>
+  <p>Promo Spesial Hari Batik - Diskon 20% Kain Batik Gedog Asli Tuban!</p>
+  <a href="#order" class="btn">Pesan Sekarang</a>
+</div>
+
+<div class="section">
+  <h2>Galeri Motif Khas Tuban</h2>
+  <div class="galeri">
+    <div class="kartu"><div class="img-box"><img src="https://images.unsplash.com/photo-1590732596287-2a6fcd1c8d85"></div><div class="info"><h3>Batik Gedog Manuk</h3><p>Motif burung khas pesisir Tuban</p></div></div>
+    <div class="kartu"><div class="img-box"><img src="https://images.unsplash.com/photo-1558171813-4c30d342488a"></div><div class="info"><h3>Batik Lintang Semalam</h3><p>Motif klasik elegan</p></div></div>
+    <div class="kartu"><div class="img-box"><img src="https://images.unsplash.com/photo-1590732596287-2a6fcd1c8d85"></div><div class="info"><h3>Batik Kembang Setaman</h3><p>Motif bunga penuh warna</p></div></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Tabel Rincian Bahan & Harga</h2>
+  <table>
+    <tr><th>Jenis Kain</th><th>Bahan</th><th>Proses</th><th>Harga</th></tr>
+    <tr><td>Batik Tulis Halus</td><td>Katun Primisima</td><td>Tulis Tangan 2 Bulan</td><td>Rp 450.000</td></tr>
+    <tr><td>Batik Cap Kombinasi</td><td>Katun Rayon</td><td>Cap + Tulis</td><td>Rp 250.000</td></tr>
+    <tr><td>Batik Gedog Tuban</td><td>Tenun Gedog Asli</td><td>Tulis Tradisional</td><td>Rp 850.000</td></tr>
+  </table>
+</div>
+
+<div class="section video-box">
+  <h2>Video Proses Pembatikan Lokal</h2>
+  <iframe src="https://www.youtube.com/embed/3SSq32o3cQY" allowfullscreen></iframe>
+  <p style="margin-top:10px">Proses membatik tulis oleh pengrajin di Desa M…                                                      
